@@ -8,11 +8,11 @@ def calculator():
     int_2 = int(int_2)
     if operation == "ADD":
         print(int_1+int_2)
-    elif operation == "SUBTRACT":
+    if operation == "SUBTRACT":
         print(int_1-int_2)
-    elif operation == "MULTIPLY":
+    if operation == "MULTIPLY":
         print(int_1*int_2)
-    elif operation == "DIVIDE":
+    if operation == "DIVIDE":
         print(int_1/int_2)
     else:
         print("I can't accept that input")
